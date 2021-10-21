@@ -1,0 +1,23 @@
+1.2
+- removed Iterable from CaloCoordinateList
+- general code improvement and added useful classes
+
+1.1.1
+- extended CaloMath
+
+1.1
+- added CoordinateListFactory and functionality for CoordinateList
+- can only build jar if tests are passed
+- extended CaloMath
+
+1.0
+- no changes (only upgraded for Android release)
+
+0.6
+- extended CaloMath and CaloCoordinateList
+
+0.2
+- minor code improvements
+
+0.1
+- initial state of the backend logic repo (code extraction from Android)

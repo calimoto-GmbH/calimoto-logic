@@ -1,0 +1,8 @@
+*/bin/*
+*/gen/*
+*/obj/*
+*.class
+*.iml
+target/
+build/
+.gradle

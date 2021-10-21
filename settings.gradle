@@ -1,0 +1,3 @@
+rootProject.name = 'calimoto-logic-public'
+include 'core'
+

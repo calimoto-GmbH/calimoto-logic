@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group rootProject.group
+version rootProject.version
+
+repositories {
+    mavenCentral()
+    google()
+}
+
+java {
+    withSourcesJar()
+}
+
+jar {
+    destinationDir = new File("$rootDir/../dependencies/debug/calimoto-logic-public")
+    dependsOn 'test'
+}
+
+sourcesJar {
+    destinationDir = new File("$rootDir/../dependencies/debug/calimoto-logic-public")
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'androidx.annotation:annotation:1.1.0'
+}
